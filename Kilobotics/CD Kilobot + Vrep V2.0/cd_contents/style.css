@@ -1,0 +1,276 @@
+/*  
+Theme Name: K-Team Theme
+.
+Description: A search engine optimized website for K-Team Corporation
+.
+Author: Ian Bernstein
+Author URI: http://www.roadnarrows.com
+.
+Version: 0.1
+*/
+
+
+* {
+	margin:0;
+	padding:0;
+	outline:none;
+}
+
+body {
+	background-image:url("images/k-team-bar-bg.jpg");
+	background-repeat:no-repeat;
+}
+
+#wrapper {
+	width:960px;
+	background-image:url("images/k-team-header-background.jpg");
+	background-repeat:no-repeat;
+	text-align:left;
+}
+
+a {
+	color:#363c88;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+
+/* =============================================== */
+/* Header */
+/* =============================================== */
+
+#header_wrapper {
+	width:960px;
+	height:153px;
+	position:relative;
+	overflow:hidden;
+	font-family: Arial, Helvetica, Tahoma, sans-serif;
+	font-weight:bold;
+	font-size:0.9em;
+}
+
+#header_homelink {
+	width:960px;
+	height:111px;
+}
+
+#header_linkbar {
+	width:960px;
+	position:relative;
+	margin-top:9px;
+	text-transform:uppercase;
+}
+
+#header_linkbar ul {
+	list-style-type:none;	
+}
+
+#header_linkbar ul li {
+	float:left;
+	padding-right:50px;
+}
+
+#header_linkbar ul li a {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#header_linkbar ul li a:hover {
+	color:#363c88;
+}
+
+#header_linkbar ul li ul {
+	display:none;
+}
+
+
+/* =============================================== */
+/* Content */
+/* =============================================== */
+
+#content_wrapper {
+	width:960px;
+}
+
+#left_column {
+	position:relative;
+	float:left;
+	width:207px;
+	background-image:url("images/left_column_bg.gif");
+	background-repeat:repeat-y;
+}
+
+#right_column {
+	position:relative;
+	float:left;
+	width:753px;
+}
+
+#content {
+	margin-top:18px;
+	width:753px;
+	overflow:hidden;
+	color:#333333;
+	font-size:0.75em;
+	font-family: Arial, Helvetica, Tahoma, sans-serif;
+}
+
+#content ul {
+	list-style-type:disc;
+	margin-left:40px;
+}
+
+#content ul ul {
+	list-style-type:circle;
+	margin-left:40px;
+}
+
+#content h2 {
+	color:#363c88;
+	font-size:15px;
+}
+
+.wpcf7 p {
+	margin:1em 0;
+}
+
+/*#content a {
+	text-decoration:underline;
+}
+*/
+#content a:hover {
+	color:black;
+}
+
+.product img {
+	vertical-align:middle;
+	margin:0 3px 5px 15px;
+}
+
+.product_bar {
+	background-color:#dec88c;
+
+}
+
+.product_bar td {
+	padding:3px 0;
+}
+
+
+.product_bar td tr a:hover {
+	color:#363c88;
+}
+
+.product_bar a {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+.spectable td, .spectable th {
+	padding:3px;
+}
+
+#content_linkbar {
+	width:960px;
+	position:relative;
+	margin-top:9px;
+	text-transform:uppercase;
+}
+
+#content_linkbar ul {
+	list-style-type:none;	
+}
+
+#content_linkbar ul li {
+	float:left;
+	padding-right:50px;
+}
+
+#content_linkbar ul li a {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#content_linkbar ul li a:hover {
+	color:#363c88;
+}
+
+#content_linkbar ul li ul {
+	display:none;
+}
+
+
+/* =============================================== */
+/* Sidebar */
+/* =============================================== */
+
+#sidebar {
+	margin-top:18px;
+	width:179px;
+	overflow:hidden;
+	font-family: Arial, Helvetica, Tahoma, sans-serif;
+	font-size:11px;
+}
+
+#sidebar .widget {
+	margin-bottom:25px;
+	padding-left:12px;
+}
+
+.sidebar_title {
+	background-image:url("images/k-team-bullet.gif");
+	background-repeat:no-repeat;
+	color:#363c88;
+	font-size:13px;
+	font-weight:bold;
+	padding-left:12px;
+	margin-left:-12px;
+	margin-bottom:7px;
+}
+
+#searchform div label {
+	display:none;
+}
+
+#searchform div #searchsubmit {
+	border: 1px solid #006;
+	font-size:12px;
+	margin-top:3px;
+	padding-bottom:1px;
+}
+
+#sidebar #text-5 {
+	font-size:13px;
+	font-weight:bold;
+}
+
+.sendit p {
+	display:none;
+}
+
+.sendit .button {
+	border: 1px solid #006;
+	font-size:12px;
+	margin-top:3px;
+	padding-bottom:1px;
+}
+
+
+/* =============================================== */
+/* Footer */
+/* =============================================== */
+
+#footerline {
+	margin-top:50px;
+	height:1px;
+	background-color:#bcbcbc;
+}
+
+#footer {
+	margin-top:10px;
+	color:#878787;
+	font-size:0.75em;
+}
