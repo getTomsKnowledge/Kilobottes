@@ -1,4 +1,3 @@
 # Kilobottes: OtteLab's Kilobot Repository
 
-Add text here...
-
+A place for us to collaborate, provide feedback, and grow our Kilobotics skillset.  Cheers!
