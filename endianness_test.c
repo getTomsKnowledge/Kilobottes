@@ -25,12 +25,13 @@ int main() {
     uint8_t k = 0;
     
     testID = 1;
-    
-    printf("Short (2-byte) test variable = %d\n\n", testID);
+    uint8_t multiplier = sizeof(testID);
+
+    printf("Short (2-byte) test variable = %d\n  Mem. size = %d\n", testID, multiplier);
     
     for (int i = 0; i < 2; i++) {
     
-    	for (int j = 2*BYTE_SIZE - 1; j >= 0; j--) {
+    	for (int j = ((BYTE_SIZE * multiplier) - 1); j >= 0; j--) {
     		k = testID >> j;
     	 	if (i >= BYTE_SIZE) {
     			MSB |= k << j; 
